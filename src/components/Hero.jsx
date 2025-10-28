@@ -13,19 +13,19 @@ function Hero() {
       <div className="absolute inset-0 bg-black opacity-60"></div>
 
       <div className="relative z-10 ">
-        <div className="text-center mb-6">
-          <h2 className="text-[#e89755] text-4xl mb-3 font-bold">
+        <div className="text-center mt-15 mb-15">
+          <h2 className="text-[#e89755] text-3xl mb-3 font-bold">
             Find Your Perfect Stay, Anywhere
           </h2>
-          <p className="text-2xl">
+          <p className="text-[17px]">
             Discover top-rated hotels and exclusive deals around the world. Book
             with ease and start your journey today.
           </p>
           <button className="mt-5">Book Now</button>
         </div>
 
-        <section class="bg-white p-6 max-w-xl mx-auto rounded-2xl shadow-lg">
-          <h2 class="text-2xl font-bold mb-4 text-gray-800">Book Your Stay</h2>
+        <section class="bg-white p-4 max-w-xl mx-auto rounded-2xl shadow-lg">
+          <h2 class="text-[20px] font-bold mb-4 text-gray-800">Book Your Stay</h2>
           <form class="space-y-4">
             <div>
               <label
