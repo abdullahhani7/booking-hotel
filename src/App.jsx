@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
+import Navbar from "./components/Navbar";
+import { useLocation } from "react-router-dom";
 
 const App = () => {
-  return (
-    <div>App</div>
-  )
-}
+  const isDashboard = useLocation().pathname.includes("dashboard");
 
-export default App
+  return <>{!isDashboard && <Navbar />}</>;
+};
+
+export default App;
